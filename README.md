@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Rudra Trivedi, freelance GTM engineer" width="100%" />
+  <img src="./assets/header-v2.svg" alt="Rudra Trivedi, freelance GTM engineer" width="100%" />
 </p>
 
 <p align="center">

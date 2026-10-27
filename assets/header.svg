@@ -35,8 +35,6 @@
     </circle>
 
     <g fill="#FFF6EE" opacity=".35">
-      <ellipse cx="120" cy="300" rx="90" ry="22"><animateTransform attributeName="transform" type="translate" values="0 0;60 0;0 0" dur="22s" repeatCount="indefinite"/></ellipse>
-      <ellipse cx="520" cy="322" rx="120" ry="26"><animateTransform attributeName="transform" type="translate" values="0 0;-70 0;0 0" dur="26s" repeatCount="indefinite"/></ellipse>
       <ellipse cx="330" cy="100" rx="70" ry="16"><animateTransform attributeName="transform" type="translate" values="0 0;50 0;0 0" dur="18s" repeatCount="indefinite"/></ellipse>
     </g>
 
@@ -46,14 +44,14 @@
       <text x="48" y="45" class="serif" font-size="18" font-weight="900" fill="#FF5233" text-anchor="middle">R</text>
       <text x="72" y="44" class="serif" font-size="17" font-weight="800" fill="#1A1523">Rudra <tspan font-style="italic" fill="#FF5233">Trivedi</tspan></text>
       <g class="sans" font-size="13" font-weight="500" fill="#1A1523">
-        <text x="478" y="44">Home</text>
-        <text x="540" y="44">Services</text>
-        <text x="615" y="44">Projects</text>
-        <text x="690" y="44">Experience</text>
-        <text x="772" y="44">Resume</text>
+        <text x="424" y="44">Home</text>
+        <text x="484" y="44">Services</text>
+        <text x="562" y="44">Projects</text>
+        <text x="640" y="44">Experience</text>
+        <text x="732" y="44">Resume</text>
       </g>
-      <rect x="810" y="24" width="60" height="30" rx="15" fill="#FF5233"/>
-      <text x="840" y="43" class="sans" font-size="12" font-weight="700" fill="#FFF6EE" text-anchor="middle">Let's Talk</text>
+      <rect x="800" y="24" width="72" height="30" rx="15" fill="#FF5233"/>
+      <text x="836" y="43" class="sans" font-size="12" font-weight="700" fill="#FFF6EE" text-anchor="middle">Let's Talk</text>
     </g>
 
     <g class="rise" style="animation-delay:.1s">
@@ -72,30 +70,30 @@
     </g>
 
     <g class="sans" font-size="12" font-weight="500" fill="#1A1523">
-      <g class="pill tf" style="animation-delay:1.0s"><rect x="46" y="296" width="118" height="26" rx="13" fill="#FFF6EE" fill-opacity=".8" stroke="#1A1523" stroke-opacity=".35"/><text x="105" y="313" text-anchor="middle">&#128205; Mumbai, India</text></g>
-      <g class="pill tf" style="animation-delay:1.2s"><rect x="174" y="296" width="152" height="26" rx="13" fill="#FFF6EE" fill-opacity=".8" stroke="#1A1523" stroke-opacity=".35"/><text x="250" y="313" text-anchor="middle">&#129504; AI &amp; ML engineer by degree</text></g>
-      <g class="pill tf" style="animation-delay:1.4s"><rect x="336" y="296" width="116" height="26" rx="13" fill="#FFF6EE" fill-opacity=".8" stroke="#1A1523" stroke-opacity=".35"/><text x="394" y="313" text-anchor="middle">&#127881; 2 yrs in B2B SaaS</text></g>
+      <g class="pill tf" style="animation-delay:1.0s"><rect x="46" y="296" width="122" height="28" rx="14" fill="#FFF6EE" fill-opacity=".85" stroke="#1A1523" stroke-opacity=".35"/><text x="107" y="314" text-anchor="middle">&#128205; Mumbai, India</text></g>
+      <g class="pill tf" style="animation-delay:1.2s"><rect x="178" y="296" width="196" height="28" rx="14" fill="#FFF6EE" fill-opacity=".85" stroke="#1A1523" stroke-opacity=".35"/><text x="276" y="314" text-anchor="middle">&#129504; AI &amp; ML engineer by degree</text></g>
+      <g class="pill tf" style="animation-delay:1.4s"><rect x="384" y="296" width="146" height="28" rx="14" fill="#FFF6EE" fill-opacity=".85" stroke="#1A1523" stroke-opacity=".35"/><text x="457" y="314" text-anchor="middle">&#127881; 2 yrs in B2B SaaS</text></g>
     </g>
 
     <g class="tf float">
-      <g transform="translate(748 196) rotate(4)">
-        <rect x="-112" y="-96" width="224" height="192" rx="16" fill="#1A1523" transform="translate(7 7)"/>
-        <rect x="-112" y="-96" width="224" height="192" rx="16" fill="#FFF6EE" stroke="#1A1523" stroke-width="3"/>
-        <rect x="-40" y="-110" width="80" height="22" rx="3" fill="#FFEDD9" stroke="#1A1523" stroke-opacity=".25" transform="rotate(-3)"/>
+      <g transform="translate(748 198) rotate(4)">
+        <rect x="-112" y="-102" width="224" height="210" rx="16" fill="#1A1523" transform="translate(7 7)"/>
+        <rect x="-112" y="-102" width="224" height="210" rx="16" fill="#FFF6EE" stroke="#1A1523" stroke-width="3"/>
+        <rect x="-40" y="-116" width="80" height="22" rx="3" fill="#FFEDD9" stroke="#1A1523" stroke-opacity=".25" transform="rotate(-3)"/>
 
-        <g transform="translate(-92 -76)">
-          <rect width="150" height="22" rx="11" fill="#FF5233"/>
-          <circle class="dot" cx="13" cy="11" r="4" fill="#FFF6EE"/>
-          <text x="24" y="15.5" class="sans" font-size="11" font-weight="700" fill="#FFF6EE">Open to freelance work</text>
+        <g transform="translate(-94 -82)">
+          <rect width="166" height="24" rx="12" fill="#FF5233"/>
+          <circle class="dot" cx="14" cy="12" r="4" fill="#FFF6EE"/>
+          <text x="26" y="16.5" class="sans" font-size="11.5" font-weight="700" fill="#FFF6EE">Open to freelance work</text>
         </g>
 
-        <g class="sans">
-          <text x="-92" y="-22" class="serif" font-size="32" font-weight="900" fill="#FF5233">100+</text>
-          <text x="-20" y="-22" font-size="12" fill="#1A1523">qualified demos booked</text>
-          <text x="-92" y="22" class="serif" font-size="32" font-weight="900" fill="#FF5233">30m</text>
-          <text x="-20" y="22" font-size="12" fill="#1A1523">research saved per lead</text>
-          <text x="-92" y="66" class="serif" font-size="32" font-weight="900" fill="#FF5233">-70%</text>
-          <text x="-20" y="66" font-size="12" fill="#1A1523">client onboarding time</text>
+        <g class="sans" font-size="12.5" fill="#1A1523">
+          <text x="-94" y="-22" class="serif" font-size="30" font-weight="900" fill="#FF5233">100+</text>
+          <text x="-94" y="-5">qualified demos booked</text>
+          <text x="-94" y="30" class="serif" font-size="30" font-weight="900" fill="#FF5233">30 min</text>
+          <text x="-94" y="47">research saved per lead</text>
+          <text x="-94" y="82" class="serif" font-size="30" font-weight="900" fill="#FF5233">-70%</text>
+          <text x="-94" y="99">client onboarding time</text>
         </g>
       </g>
     </g>

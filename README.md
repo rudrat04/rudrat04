@@ -9,8 +9,8 @@
 
 <p align="center">
   <a href="https://f1rstword.com"><img src="https://img.shields.io/badge/Work%20with%20me-FF5233?style=for-the-badge&logoColor=white" alt="Work with me" /></a>
-  <a href="https://www.linkedin.com/in/rudra-trivedi-t04"><img src="https://img.shields.io/badge/LinkedIn-1e1518?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://linktr.ee/rudratrivedi"><img src="https://img.shields.io/badge/All%20links-1e1518?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" /></a>
+  <a href="https://www.linkedin.com/in/rudra-trivedi-t04"><img src="https://img.shields.io/badge/LinkedIn-1A1523?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linktr.ee/rudratrivedi"><img src="https://img.shields.io/badge/All%20links-1A1523?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" /></a>
 </p>
 
 <p align="center">

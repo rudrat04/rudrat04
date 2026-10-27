@@ -1,56 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="900" height="190" role="img" aria-label="Animated GTM flow: signals to enrichment to scoring to outreach to pipeline">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" role="img" aria-label="Animated flow: signals, enrich, score, reach out, pipeline">
   <defs>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FF5233"/><stop offset="0.5" stop-color="#ff8a5c"/><stop offset="1" stop-color="#ffb199"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <path id="track" d="M90 95 H810"/>
+    <path id="track" d="M90 100 H810"/>
   </defs>
   <style>
-    .sans{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
-    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
-    .node{fill:#1a1316;stroke:url(#line);stroke-width:2}
-    .lbl{fill:#fff1ec;font-size:15px;font-weight:600;text-anchor:middle}
-    .sub{fill:#b79a90;font-size:11px;text-anchor:middle}
-    .ring{fill:none;stroke:#ff8a5c;stroke-width:2;opacity:0;transform-box:fill-box;transform-origin:center;animation:pulse 6s infinite}
-    @keyframes pulse{0%{opacity:0;transform:scale(.8)}4%{opacity:.9;transform:scale(1)}16%{opacity:0;transform:scale(1.7)}100%{opacity:0}}
+    .serif{font-family:Fraunces,'Iowan Old Style',Georgia,'Times New Roman',serif}
+    .sans{font-family:'Space Grotesk','Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+    .node{fill:#FBEEE0;stroke:#1A1523;stroke-width:2.5}
+    .shadow{fill:#1A1523}
+    .lbl{fill:#1A1523;font-size:15px;font-weight:700;text-anchor:middle}
+    .sub{fill:#453B52;font-size:11.5px;text-anchor:middle}
+    .ring{fill:none;stroke:#FF5233;stroke-width:2.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:pulse 6s infinite}
+    @keyframes pulse{0%{opacity:0;transform:scale(.85)}4%{opacity:1;transform:scale(1)}18%{opacity:0;transform:scale(1.7)}100%{opacity:0}}
     .n2{animation-delay:1.2s}.n3{animation-delay:2.4s}.n4{animation-delay:3.6s}.n5{animation-delay:4.8s}
   </style>
 
-  <rect width="900" height="190" rx="18" fill="#121014"/>
+  <rect x="1.5" y="1.5" width="897" height="197" rx="20" fill="#FFF6EE" stroke="#1A1523" stroke-opacity=".12" stroke-width="3"/>
 
-  <use href="#track" stroke="#ffffff" stroke-opacity=".12" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <use href="#track" stroke="url(#line)" stroke-width="3" stroke-linecap="round" fill="none" stroke-dasharray="720" stroke-dashoffset="720">
+  <text x="450" y="38" class="serif" font-size="17" font-style="italic" font-weight="700" fill="#1A1523" text-anchor="middle">how I design the work, then <tspan fill="#FF5233">automate the repeat parts</tspan></text>
+
+  <use href="#track" stroke="#1A1523" stroke-opacity=".15" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <use href="#track" stroke="#FF5233" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="720" stroke-dashoffset="720">
     <animate attributeName="stroke-dashoffset" values="720;0;0;720" keyTimes="0;0.8;0.95;1" dur="6s" repeatCount="indefinite"/>
   </use>
 
   <g class="sans">
-    <circle class="node" cx="90" cy="95" r="30"/><circle class="ring" cx="90" cy="95" r="30"/>
-    <text class="lbl" x="90" y="146">Signals</text><text class="sub" x="90" y="163">new enquiries, replies</text>
-    <text x="90" y="101" text-anchor="middle" font-size="22">&#128225;</text>
+    <circle class="shadow" cx="94" cy="104" r="30"/><circle class="node" cx="90" cy="100" r="30"/><circle class="ring" cx="90" cy="100" r="30"/>
+    <text x="90" y="107" text-anchor="middle" font-size="22">&#128225;</text>
+    <text class="lbl" x="90" y="152">Signals</text><text class="sub" x="90" y="170">new enquiries, replies</text>
 
-    <circle class="node" cx="270" cy="95" r="30"/><circle class="ring n2" cx="270" cy="95" r="30"/>
-    <text class="lbl" x="270" y="146">Enrich</text><text class="sub" x="270" y="163">CRM kept clean</text>
-    <text x="270" y="101" text-anchor="middle" font-size="22">&#129514;</text>
+    <circle class="shadow" cx="274" cy="104" r="30"/><circle class="node" cx="270" cy="100" r="30"/><circle class="ring n2" cx="270" cy="100" r="30"/>
+    <text x="270" y="107" text-anchor="middle" font-size="22">&#129514;</text>
+    <text class="lbl" x="270" y="152">Enrich</text><text class="sub" x="270" y="170">CRM kept clean</text>
 
-    <circle class="node" cx="450" cy="95" r="30"/><circle class="ring n3" cx="450" cy="95" r="30"/>
-    <text class="lbl" x="450" y="146">Score</text><text class="sub" x="450" y="163">lead scoring, ~10s</text>
-    <text x="450" y="101" text-anchor="middle" font-size="22">&#127919;</text>
+    <circle class="shadow" cx="454" cy="104" r="30"/><circle class="node" cx="450" cy="100" r="30"/><circle class="ring n3" cx="450" cy="100" r="30"/>
+    <text x="450" y="107" text-anchor="middle" font-size="22">&#127919;</text>
+    <text class="lbl" x="450" y="152">Score</text><text class="sub" x="450" y="170">lead scoring, ~10s</text>
 
-    <circle class="node" cx="630" cy="95" r="30"/><circle class="ring n4" cx="630" cy="95" r="30"/>
-    <text class="lbl" x="630" y="146">Reach out</text><text class="sub" x="630" y="163">pre-meeting briefs</text>
-    <text x="630" y="101" text-anchor="middle" font-size="22">&#9993;&#65039;</text>
+    <circle class="shadow" cx="634" cy="104" r="30"/><circle class="node" cx="630" cy="100" r="30"/><circle class="ring n4" cx="630" cy="100" r="30"/>
+    <text x="630" y="107" text-anchor="middle" font-size="22">&#9993;&#65039;</text>
+    <text class="lbl" x="630" y="152">Reach out</text><text class="sub" x="630" y="170">pre-meeting briefs</text>
 
-    <circle class="node" cx="810" cy="95" r="30"/><circle class="ring n5" cx="810" cy="95" r="30"/>
-    <text class="lbl" x="810" y="146">Pipeline</text><text class="sub" x="810" y="163">qualified demos</text>
-    <text x="810" y="101" text-anchor="middle" font-size="22">&#128176;</text>
+    <circle class="shadow" cx="814" cy="104" r="30"/><circle class="node" cx="810" cy="100" r="30"/><circle class="ring n5" cx="810" cy="100" r="30"/>
+    <text x="810" y="107" text-anchor="middle" font-size="22">&#128176;</text>
+    <text class="lbl" x="810" y="152">Pipeline</text><text class="sub" x="810" y="170">qualified demos</text>
   </g>
 
-  <text x="450" y="34" class="mono" font-size="12" fill="#8a7068" text-anchor="middle">// how I design the work, then automate the repeat parts</text>
-
-  <circle r="7" fill="#FF5233" filter="url(#glow)">
+  <circle r="7" fill="#FF5233" stroke="#1A1523" stroke-width="2" filter="url(#glow)">
     <animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.8;1" calcMode="linear"><mpath href="#track"/></animateMotion>
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.78;0.85;1" dur="6s" repeatCount="indefinite"/>
   </circle>

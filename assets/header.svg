@@ -1,65 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Rudra Trivedi, GTM engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="Rudra Trivedi, freelance GTM engineer">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#121014"/>
-      <stop offset="1" stop-color="#1e1518"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4A896"/>
+      <stop offset="0.38" stop-color="#E8A0C4"/>
+      <stop offset="0.72" stop-color="#B8A9D9"/>
+      <stop offset="1" stop-color="#7FA8D9"/>
     </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FF5233"/>
-      <stop offset="0.55" stop-color="#ff8a5c"/>
-      <stop offset="1" stop-color="#ffb199"/>
-    </linearGradient>
-    <radialGradient id="g1"><stop offset="0" stop-color="#ff8a5c" stop-opacity=".45"/><stop offset="1" stop-color="#ff8a5c" stop-opacity="0"/></radialGradient>
-    <radialGradient id="g2"><stop offset="0" stop-color="#FF5233" stop-opacity=".35"/><stop offset="1" stop-color="#FF5233" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" opacity=".12"/>
-    </pattern>
-    <clipPath id="clip"><rect width="900" height="260" rx="18"/></clipPath>
-    <clipPath id="type"><rect x="40" y="70" width="0" height="80"><animate attributeName="width" from="0" to="820" dur="1.4s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></rect></clipPath>
+    <radialGradient id="sun">
+      <stop offset="0" stop-color="#FFEDD9" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFEDD9" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="900" height="340" rx="22"/></clipPath>
   </defs>
   <style>
-    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
-    .sans{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
-    .role{opacity:0;animation:cyc 9s infinite;fill:#f3dcd4;font-size:19px}
-    .r1{animation-delay:0s}.r2{animation-delay:3s}.r3{animation-delay:6s}
-    @keyframes cyc{0%{opacity:0}6%,30%{opacity:1}36%,100%{opacity:0}}
-    .cursor{animation:blink 1s steps(1) infinite;fill:#FF5233}
-    @keyframes blink{50%{opacity:0}}
-    .chip{opacity:0;animation:pop .6s ease forwards}
-    @keyframes pop{from{opacity:0}to{opacity:1}}
+    .serif{font-family:Fraunces,'Iowan Old Style',Georgia,'Times New Roman',serif}
+    .sans{font-family:'Space Grotesk','Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+    .script{font-family:'Caveat','Segoe Print','Bradley Hand','Comic Sans MS',cursive}
+    .rise{opacity:0;animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+    .pill{opacity:0;animation:pop .5s ease forwards}
+    @keyframes pop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:scale(1)}}
+    .tf{transform-box:fill-box;transform-origin:center}
+    .float{animation:float 6s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    .dot{animation:blink 1.6s ease-in-out infinite}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
   </style>
 
   <g clip-path="url(#clip)">
-    <rect width="900" height="260" fill="url(#bg)"/>
-    <rect width="900" height="260" fill="url(#grid)"/>
+    <rect width="900" height="340" fill="url(#sky)"/>
 
-    <circle r="170" fill="url(#g1)" cx="120" cy="40">
-      <animate attributeName="cx" values="120;300;120" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="40;90;40" dur="11s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="150" fill="url(#g2)" cx="780" cy="230">
-      <animate attributeName="cx" values="780;600;780" dur="16s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="230;170;230" dur="12s" repeatCount="indefinite"/>
+    <circle cx="780" cy="95" r="120" fill="url(#sun)">
+      <animate attributeName="r" values="110;132;110" dur="8s" repeatCount="indefinite"/>
     </circle>
 
-    <text x="40" y="52" class="mono" font-size="14" fill="#FF5233" opacity=".9">~/rudrat04 <tspan fill="#8a7068">$ whoami</tspan></text>
-
-    <g clip-path="url(#type)">
-      <text x="40" y="135" class="sans" font-size="68" font-weight="800" fill="url(#name)" letter-spacing="-1">Rudra Trivedi</text>
+    <g fill="#FFF6EE" opacity=".35">
+      <ellipse cx="120" cy="300" rx="90" ry="22"><animateTransform attributeName="transform" type="translate" values="0 0;60 0;0 0" dur="22s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="520" cy="322" rx="120" ry="26"><animateTransform attributeName="transform" type="translate" values="0 0;-70 0;0 0" dur="26s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="330" cy="100" rx="70" ry="16"><animateTransform attributeName="transform" type="translate" values="0 0;50 0;0 0" dur="18s" repeatCount="indefinite"/></ellipse>
     </g>
 
-    <g class="mono">
-      <text x="40" y="188" class="role r1">&gt; freelance GTM engineer</text>
-      <text x="40" y="188" class="role r2">&gt; I design how sales, ops and GTM work</text>
-      <text x="40" y="188" class="role r3">&gt; then automate the repeat parts. no handoffs.</text>
-      <rect x="40" y="198" width="10" height="3" rx="1" class="cursor"/>
+    <g>
+      <rect x="20" y="16" width="860" height="46" rx="23" fill="#FFF6EE" fill-opacity=".88"/>
+      <rect x="34" y="25" width="28" height="28" rx="8" fill="#1A1523"/>
+      <text x="48" y="45" class="serif" font-size="18" font-weight="900" fill="#FF5233" text-anchor="middle">R</text>
+      <text x="72" y="44" class="serif" font-size="17" font-weight="800" fill="#1A1523">Rudra <tspan font-style="italic" fill="#FF5233">Trivedi</tspan></text>
+      <g class="sans" font-size="13" font-weight="500" fill="#1A1523">
+        <text x="478" y="44">Home</text>
+        <text x="540" y="44">Services</text>
+        <text x="615" y="44">Projects</text>
+        <text x="690" y="44">Experience</text>
+        <text x="772" y="44">Resume</text>
+      </g>
+      <rect x="810" y="24" width="60" height="30" rx="15" fill="#FF5233"/>
+      <text x="840" y="43" class="sans" font-size="12" font-weight="700" fill="#FFF6EE" text-anchor="middle">Let's Talk</text>
     </g>
 
-    <g class="mono" font-size="12">
-      <g class="chip" style="animation-delay:1.2s"><rect x="40" y="218" rx="11" width="92" height="24" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="86" y="234" fill="#f3dcd4" text-anchor="middle">TypeScript</text></g>
-      <g class="chip" style="animation-delay:1.5s"><rect x="142" y="218" rx="11" width="82" height="24" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="183" y="234" fill="#f3dcd4" text-anchor="middle">Supabase</text></g>
-      <g class="chip" style="animation-delay:1.8s"><rect x="234" y="218" rx="11" width="78" height="24" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="273" y="234" fill="#f3dcd4" text-anchor="middle">HubSpot</text></g>
-      <g class="chip" style="animation-delay:2.1s"><rect x="322" y="218" rx="11" width="74" height="24" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="359" y="234" fill="#f3dcd4" text-anchor="middle">Mumbai</text></g>
+    <g class="rise" style="animation-delay:.1s">
+      <text x="44" y="116" class="script" font-size="30" font-style="italic" fill="#1A1523">hey, I'm</text>
+    </g>
+
+    <g class="rise" style="animation-delay:.3s">
+      <text x="47" y="195" class="serif" font-size="70" font-weight="900" fill="#1A1523" letter-spacing="-1.5">Rudra <tspan font-style="italic">Trivedi</tspan></text>
+      <text x="44" y="192" class="serif" font-size="70" font-weight="900" fill="#FFEDD9" stroke="#FF5233" stroke-width="2" paint-order="stroke" letter-spacing="-1.5">Rudra <tspan font-style="italic" fill="#FF5233" stroke="#FFEDD9">Trivedi</tspan></text>
+    </g>
+
+    <g class="sans rise" style="animation-delay:.6s" font-size="15.5" fill="#1A1523">
+      <text x="46" y="232"><tspan font-weight="500">Freelance </tspan><tspan font-weight="700">GTM engineer.</tspan> I design how your sales,</text>
+      <text x="46" y="254">operations and go to market work, then <tspan font-weight="700">automate</tspan></text>
+      <text x="46" y="276"><tspan font-weight="700">the repeat parts.</tspan> Just me, no handoffs.</text>
+    </g>
+
+    <g class="sans" font-size="12" font-weight="500" fill="#1A1523">
+      <g class="pill tf" style="animation-delay:1.0s"><rect x="46" y="296" width="118" height="26" rx="13" fill="#FFF6EE" fill-opacity=".8" stroke="#1A1523" stroke-opacity=".35"/><text x="105" y="313" text-anchor="middle">&#128205; Mumbai, India</text></g>
+      <g class="pill tf" style="animation-delay:1.2s"><rect x="174" y="296" width="152" height="26" rx="13" fill="#FFF6EE" fill-opacity=".8" stroke="#1A1523" stroke-opacity=".35"/><text x="250" y="313" text-anchor="middle">&#129504; AI &amp; ML engineer by degree</text></g>
+      <g class="pill tf" style="animation-delay:1.4s"><rect x="336" y="296" width="116" height="26" rx="13" fill="#FFF6EE" fill-opacity=".8" stroke="#1A1523" stroke-opacity=".35"/><text x="394" y="313" text-anchor="middle">&#127881; 2 yrs in B2B SaaS</text></g>
+    </g>
+
+    <g class="tf float">
+      <g transform="translate(748 196) rotate(4)">
+        <rect x="-112" y="-96" width="224" height="192" rx="16" fill="#1A1523" transform="translate(7 7)"/>
+        <rect x="-112" y="-96" width="224" height="192" rx="16" fill="#FFF6EE" stroke="#1A1523" stroke-width="3"/>
+        <rect x="-40" y="-110" width="80" height="22" rx="3" fill="#FFEDD9" stroke="#1A1523" stroke-opacity=".25" transform="rotate(-3)"/>
+
+        <g transform="translate(-92 -76)">
+          <rect width="150" height="22" rx="11" fill="#FF5233"/>
+          <circle class="dot" cx="13" cy="11" r="4" fill="#FFF6EE"/>
+          <text x="24" y="15.5" class="sans" font-size="11" font-weight="700" fill="#FFF6EE">Open to freelance work</text>
+        </g>
+
+        <g class="sans">
+          <text x="-92" y="-22" class="serif" font-size="32" font-weight="900" fill="#FF5233">100+</text>
+          <text x="-20" y="-22" font-size="12" fill="#1A1523">qualified demos booked</text>
+          <text x="-92" y="22" class="serif" font-size="32" font-weight="900" fill="#FF5233">30m</text>
+          <text x="-20" y="22" font-size="12" fill="#1A1523">research saved per lead</text>
+          <text x="-92" y="66" class="serif" font-size="32" font-weight="900" fill="#FF5233">-70%</text>
+          <text x="-20" y="66" font-size="12" fill="#1A1523">client onboarding time</text>
+        </g>
+      </g>
     </g>
   </g>
 </svg>

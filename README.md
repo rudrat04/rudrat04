@@ -1,44 +1,70 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Rudra Trivedi, GTM engineer" width="100%" />
+  <img src="./assets/header.svg" alt="Rudra Trivedi, freelance GTM engineer" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rudra-trivedi-t04"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://linktr.ee/rudratrivedi"><img src="https://img.shields.io/badge/All%20links-43E55E?style=for-the-badge&logo=linktree&logoColor=black" alt="Linktree" /></a>
-  <a href="https://copilot.f1rstword.com"><img src="https://img.shields.io/badge/Account%20Copilot-7aa7ff?style=for-the-badge&logoColor=white" alt="Account Copilot" /></a>
-  <a href="https://first-word.netlify.app"><img src="https://img.shields.io/badge/Firstword-c58bff?style=for-the-badge&logoColor=white" alt="Firstword" /></a>
+  <b>I design how your sales, operations and go to market work, then automate the repeat parts.</b><br/>
+  <i>Just me, no handoffs.</i> · Mumbai · any industry
+</p>
+
+<p align="center">
+  <a href="https://f1rstword.com"><img src="https://img.shields.io/badge/Work%20with%20me-FF5233?style=for-the-badge&logoColor=white" alt="Work with me" /></a>
+  <a href="https://www.linkedin.com/in/rudra-trivedi-t04"><img src="https://img.shields.io/badge/LinkedIn-1e1518?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linktr.ee/rudratrivedi"><img src="https://img.shields.io/badge/All%20links-1e1518?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" /></a>
 </p>
 
 <p align="center">
   <img src="./assets/pipeline.svg" alt="Signals, enrich, score, reach out, pipeline" width="100%" />
 </p>
 
-## What I do
-
-I sit between the people who sell and the people who build. About two years across product, marketing, GTM and ops at a B2B SaaS startup, and now I build the automation that work needs: CRM workflows, enrichment, account research, outbound.
-
-## What I'm building
+## How I can help
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3>Account Copilot</h3>
-      A GTM/RevOps copilot on Supabase + HubSpot that turns raw account data into something a seller can act on.<br/><br/>
-      <a href="https://copilot.f1rstword.com">Live</a>
+    <td width="50%" valign="top">
+      <h3>Sales, RevOps &amp; GTM architecture</h3>
+      A review of how you sell today, a clear operating design, and automation for lead scoring, account finding, pre-meeting briefs and CRM upkeep.
     </td>
-    <td width="33%" valign="top">
-      <h3>HubSpot GTM automation</h3>
-      Headless automation on top of HubSpot, no UI. Node, TypeScript and Supabase doing the boring parts reliably.<br/><br/>
+    <td width="50%" valign="top">
+      <h3>Product marketing</h3>
+      Messaging, positioning and go-to-market plans that sales can actually use.
     </td>
-    <td width="33%" valign="top">
-      <h3>Firstword</h3>
-      A small growth advisory practice for early-stage B2B SaaS founders: LinkedIn outbound and lead gen.<br/><br/>
-      <a href="https://first-word.netlify.app">Site</a>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Website creation</h3>
+      Simple, mobile-friendly sites, built and launched end to end.
+    </td>
+    <td width="50%" valign="top">
+      <h3>Industry automations</h3>
+      Ready-made automations for the daily admin: lead alerts, invoicing, status updates.
     </td>
   </tr>
 </table>
 
-<!-- TODO: add one real result per card (replies booked, hours saved, records processed). -->
+## Things I've built &amp; fixed
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h1 align="center">100+</h1>
+      <b>qualified B2B demos booked</b><br/>
+      Outbound turnaround at mple.ai: ICP mapping, personalised messaging and an AI reply brief engine. 30% reply rate over 4 months on LinkedIn.
+    </td>
+    <td width="33%" valign="top">
+      <h1 align="center">30 min</h1>
+      <b>research saved per lead</b><br/>
+      An automated brief that lands with sales on every LinkedIn reply, so nobody starts a call cold.
+    </td>
+    <td width="33%" valign="top">
+      <h1 align="center">7 → 2 days</h1>
+      <b>client onboarding</b><br/>
+      A 70% cut in onboarding time at mple.ai, with feature activation up 25% and product adoption up 30%.
+    </td>
+  </tr>
+</table>
+
+**[Account Copilot](https://copilot.f1rstword.com)** is an open-source account copilot on Supabase and HubSpot. It scores a new enquiry in about 10 seconds. Outreach stays manual, and nothing is sent to a prospect automatically.
 
 ## Stack
 
@@ -50,11 +76,13 @@ I sit between the people who sell and the people who build. About two years acro
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
 </p>
 
-## Writing
+## Where I've been
 
-I write as a generalist under **Growth, Honestly**: products, marketing and startup life, without the performance.
+Two years in B2B SaaS at mple.ai, from Product Manager to Founder's Office Associate, across product, growth, marketing and ops. I also led audit readiness for ISO 27001, SOC 2 and GDPR with Scrut.io. B.E. in AI and Machine Learning. I didn't study growth, I got thrown into it.
 
-<!-- TODO: latest 2-3 posts, or auto-update with the blog-post-workflow action. -->
+I write about it as a generalist under **Growth, Honestly**: products, marketing and startup life, without the performance.
+
+<!-- TODO: add links to your latest 2-3 posts here. -->
 
 ## Activity
 
@@ -65,6 +93,6 @@ I write as a generalist under **Growth, Honestly**: products, marketing and star
   </picture>
 </p>
 
-## Open to
-
-Full-time GTM engineering, growth or founder's-office roles, and a few advisory clients. Easiest way in is [LinkedIn](https://www.linkedin.com/in/rudra-trivedi-t04).
+<p align="center">
+  <b>Got something that needs fixing?</b> <a href="https://f1rstword.com">Let's work on it together →</a>
+</p>

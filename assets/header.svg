@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Rudra Trivedi, GTM engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#151a33"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7cf2c8"/>
+      <stop offset="0.55" stop-color="#7aa7ff"/>
+      <stop offset="1" stop-color="#c58bff"/>
+    </linearGradient>
+    <radialGradient id="g1"><stop offset="0" stop-color="#7aa7ff" stop-opacity=".45"/><stop offset="1" stop-color="#7aa7ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#7cf2c8" stop-opacity=".35"/><stop offset="1" stop-color="#7cf2c8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" opacity=".12"/>
+    </pattern>
+    <clipPath id="clip"><rect width="900" height="260" rx="18"/></clipPath>
+    <clipPath id="type"><rect x="40" y="70" width="0" height="80"><animate attributeName="width" from="0" to="820" dur="1.4s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></rect></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    .sans{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+    .role{opacity:0;animation:cyc 9s infinite;fill:#c9d4ff;font-size:19px}
+    .r1{animation-delay:0s}.r2{animation-delay:3s}.r3{animation-delay:6s}
+    @keyframes cyc{0%{opacity:0}6%,30%{opacity:1}36%,100%{opacity:0}}
+    .cursor{animation:blink 1s steps(1) infinite;fill:#7cf2c8}
+    @keyframes blink{50%{opacity:0}}
+    .chip{opacity:0;animation:pop .6s ease forwards}
+    @keyframes pop{from{opacity:0}to{opacity:1}}
+  </style>
+
+  <g clip-path="url(#clip)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+    <rect width="900" height="260" fill="url(#grid)"/>
+
+    <circle r="170" fill="url(#g1)" cx="120" cy="40">
+      <animate attributeName="cx" values="120;300;120" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="40;90;40" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="150" fill="url(#g2)" cx="780" cy="230">
+      <animate attributeName="cx" values="780;600;780" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="230;170;230" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="40" y="52" class="mono" font-size="14" fill="#7cf2c8" opacity=".9">~/rudrat04 <tspan fill="#5d6890">$ whoami</tspan></text>
+
+    <g clip-path="url(#type)">
+      <text x="40" y="135" class="sans" font-size="68" font-weight="800" fill="url(#name)" letter-spacing="-1">Rudra Trivedi</text>
+    </g>
+
+    <g class="mono">
+      <text x="40" y="188" class="role r1">&gt; builds GTM systems that turn noise into pipeline</text>
+      <text x="40" y="188" class="role r2">&gt; product + growth + ops, one operator</text>
+      <text x="40" y="188" class="role r3">&gt; writes about growth, honestly</text>
+      <rect x="40" y="198" width="10" height="3" rx="1" class="cursor"/>
+    </g>
+
+    <g class="mono" font-size="12">
+      <g class="chip" style="animation-delay:1.2s"><rect x="40" y="218" rx="11" width="92" height="24" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="86" y="234" fill="#c9d4ff" text-anchor="middle">TypeScript</text></g>
+      <g class="chip" style="animation-delay:1.5s"><rect x="142" y="218" rx="11" width="82" height="24" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="183" y="234" fill="#c9d4ff" text-anchor="middle">Supabase</text></g>
+      <g class="chip" style="animation-delay:1.8s"><rect x="234" y="218" rx="11" width="78" height="24" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="273" y="234" fill="#c9d4ff" text-anchor="middle">HubSpot</text></g>
+      <g class="chip" style="animation-delay:2.1s"><rect x="322" y="218" rx="11" width="74" height="24" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="359" y="234" fill="#c9d4ff" text-anchor="middle">Mumbai</text></g>
+    </g>
+  </g>
+</svg>
